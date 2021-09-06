@@ -1,0 +1,64 @@
+body {
+    background: #b6b6b6;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.copy {
+    opacity: 0.6;
+    text-align: center;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Main */
+main {
+    text-align: center;
+    margin: 2rem;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    margin: 1rem;
+    cursor: default;
+}
+
+input {
+    margin: 1rem;
+}
+
+/* Table */
+table tbody tr,
+table thead tr {
+    background: white;
+}
+
+table tbody tr td,
+table thead tr th {
+    border: 2px #b6b6b6 solid;
+}
+
+table tbody tr td img {
+    cursor: pointer;
+}
+
+table tbody tr td:last-child:hover {
+    transition: .5s;
+    background: rgb(241, 56, 56);
+}
